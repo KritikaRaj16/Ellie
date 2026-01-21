@@ -1,0 +1,2 @@
+# Ellie
+Understanding git repos.
