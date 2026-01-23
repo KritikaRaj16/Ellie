@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact details</title>
+</head>
+<style>
+    body{
+         background-color: rgb(240, 240, 193);
+    }
+    .navbar a{
+        text-decoration: none;
+        margin: 20px;
+        padding: 10px;
+        color: black;
+    }
+    .navbar{
+        margin: 20px;
+        border: 2px;
+    }
+    a:hover{
+        background-color: rgb(147, 195, 140);
+             
+    }
+    a:visited{
+        color: rgb(122, 43, 60);
+
+    }
+    h1{
+        text-align: center;
+    }
+    p{
+        padding: 20px;
+        margin: 10px;
+        text-align: center;
+    }
+</style>
+<body>
+     <hr>
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="about.html">About</a>
+        <a  href="contact.html">Contact</a>
+
+    </div>
+    <hr>
+    <H1>Contact</H1>
+    <p>Feel free to contact me. For contacting please fill the form given below.</p>
+    <hr><HR>
+    <form>
+        <br>
+        <label for="name">Name:-</label>
+        <div><input type="text" name="myname" id="name"></div>         
+        <br>
+        <label for="email">Email:-</label>
+        <div><input type="email" name="myemail" id="email"></div>
+        <br>
+        <label for="password">Password:-</label>
+        <div><input type="password" name="mypassword" placeholder="Enter your password" id="password"></div>
+        <br>
+        <label for="mobilenumber">Mobile Number:-</label>
+        <div><input type="number" name="mobilenumber" id="mobilenumber"></div>
+        <br>
+        <label for="date of birth">Date of birth:-</label>
+        <div><input type="date" name="mydateofbirth" id="dateofbirth"></div>
+        <br>
+        <label for="gender">Gender:-</label>
+        <div>Male <input type="radio" name="gender" id="male"> Female<input type="radio" name="gender" id="female"> </div>
+        <br>
+        <label for="purpose">Purpose</label>
+        <div><select> 
+            <option value="Inquiry">General Inquiry</option>
+            <option value="feedback">Feedback</option>
+            <option value="support">Support</option>
+        </select></div><br>
+        <label for="message">Write about yourself:-</label>
+        <div><textarea name="message" id="message" rows="5" cols="20"> </textarea></div>
+        <br>
+        <DIV><input type="submit" value="SUBMIT"></DIV><br>
+        <div><input type="reset" value="RESET NOW"></div>
+    </form>
+    
+</body>
+</html>
