@@ -5,12 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tables</title>
     <style>
+        body{
+            background-color: rgb(240, 240, 193);
+        }
+        .navbar{
+            border: 2px;
+            margin: 20px;
+            
+            
+        }
+        .navbar a{
+            margin: 20px;
+            text-decoration: none;
+            padding: 10px;
+            color: black;
+            
+        }
+        a:visited{
+            color: rgb(122, 43, 60);
+
+        }
+        a:hover{
+            background-color:  rgb(147, 195, 140);
+        }
+        h1{
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        h3{
+            margin: 0;
+            padding: 10px;
+            text-align: center;
+        }
+        div h1,h3{
+            background-color: rgb(147, 195, 140);
+        }
         p{
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             font-size: large;
-        }
-        h2{
-            color: rgb(171, 120, 57);
         }
         table{
             border: rgb(44, 173, 138);
@@ -19,59 +52,31 @@
     </style>
 </head>
 <body>
-    <P>Creating a student table</P>
+    <div>
+    <h1>Welcome to my website</h1>
+    <h3>Learning HTML and CSS</h3>
     <hr>
-    <table border="2">
-        <caption><h2><u>Students Table</u></h2></caption>
-        <thead>
-            <tr>
-                <th>Roll code</th>
-                <th>Name</th>
-                <th>Branch</th>
-                <th>Room no</th>
+    </div>
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="about.html">About</a>
+        <a  href="contact.html">Contact</a>
 
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>D/045/24</td>
-                <td>Kritika Raj</td>
-                <td>CSE</td>
-                <td>105</td>
-            </tr>
-            <tr>
-                <td>D/052/24</td>
-                <td>Priyanka Kumari</td>
-                <td>CSE</td>
-                <td>105</td>
-            </tr>
-            <tr>
-                <td>D/033/24</td>
-                <td>Zazu</td>
-                <td>CSE</td>
-                <td>209</td>
-            </tr>
-            <tr>
-                <td>D/011/24</td>
-                <td>Lolo</td>
-                <td>EEE</td>
-                <td>107</td>
-            </tr>
-            <tr>
-                <td>D/010/24</td>
-                <td>Boba</td>
-                <td>CSE</td>
-                <td>105</td>
-            </tr>
-            <tr>
-                <td>D/021/24</td>
-                <td>Ellie</td>
-                <td>ECE</td>
-                <td>107</td>
-            </tr>
-        </tbody>
-
-    </table>
+    </div>
     <hr>
+    <p>Hey, buddy! Welcome to my first website.I have created this websites for learning and practically experimenting the html tags and css styling. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis voluptates iste consequuntur placeat in blanditiis eum rerum totam culpa beatae!.</p>
+    <hr>
+    <h2>Details about the this website:</h2>
+    <ul>
+        <li><p>It contains three pages:-</p>
+            <ol type="i">
+                <li>HOME:- In this page I briefly described about the websites.</li>
+                <li>ABOUT:- In this page I gave details of myself, eductions, hobbies, and goals.</li>
+                <li>CONTACT:- This page contain all my contact details like email, phone, and address.</li>
+            </ol>
+        </li>
+    </ul>
+    <hr>
+    <p id="Home">I have used different files for navigating from one section to another and linked them using anchor tag&lt;a&gt;. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, vero.</p>
 </body>
 </html>
